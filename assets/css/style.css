@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 100vw;
+    height: 90vh;
+}
+
+nav{
+    width: 100vw;
+    height: 10vh;
+    background: black;
+}
