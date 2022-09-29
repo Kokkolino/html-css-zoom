@@ -3,19 +3,36 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-body{
+/* utilities */
+.all-vw{
     width: 100vw;
+}
+
+.flex{
+    display: flex;
+}
+
+/* content */
+body{
     height: 100vh;
 }
 
 main{
-    width: 100vw;
     height: 90vh;
+    background-color: black;
 }
 
 nav{
-    width: 100vw;
     height: 10vh;
-    background: black;
+    background: #222222;
+}
+
+.view-settings{
+    height: 5vh;
+}
+
+.main-frame{
+    margin: auto;
+    width: 90vw;
+    height: 85vh;
 }
