@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 /* utilities */
 .all-vw{
@@ -39,6 +40,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     color: white;
+    font-size: 1.2vw;
 }
 
 nav > section{
@@ -58,15 +60,30 @@ nav > section{
     transform: rotate(45deg);
 }
 
+.up{
+    transform: rotate(-135deg);
+}
+
 .setting{
   height: 8vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding:  0 10px;
+  margin: auto;
+  text-align: center;
 }
 
 .setting img{
     height: 4vh;
     display: block;
+    width: 4vw;
+    margin: auto;
+}
+
+nav > section:last-child{
+    width: 15%;
+    height: 100%;
+    background-color: #4a4a4a;
+    color: red;
 }
